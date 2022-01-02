@@ -16,3 +16,19 @@ article {
     height: 300px;
     margin: 0 auto;
 }
+
+.share {
+    margin: 0 auto;
+}
+
+.banner {
+    display: flex;
+    /* a 태그의 자식에 영향을 주는 css */
+    justify-content: center;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.banner-img {
+    width: 300px;
+}

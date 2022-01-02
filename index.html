@@ -22,10 +22,14 @@
         <button id="B" type="button" class="btn btn-primary mt-5">Primary</button>
     </article>
     <article class="result">
-        <img id="img" class="rounded-circle mt-5" src="lion.jpg" alt="animal">
+        <img id="img" class="rounded-circle mt-5" src="images/lion.jpg" alt="animal">
         <h2 id="animal" class="text-center mt-5">동물이름</h2>
         <h3 id="explain" class="text-center mt-5">설명</h3>
+        <div class="addthis_inline_share_toolbox share"></div>      
     </article>
+    <a class="mt-5 banner" href="https://www.likelion.net/catalog?utm_source=animal_test&utm_medium=web_lecture&utm_campaign=oeanb12">
+        <img class="banner-img" src="images/banner.png" alt="banner">
+    </a>
     <input type="hidden" id="EI" value="0">
     <input type="hidden" id="SN" value="0">
     <input type="hidden" id="TF" value="0">
@@ -49,22 +53,22 @@
             12: { "title": "문제 12번", "type": "JP", "A": "J", "B": "P" },               
         };
         let result = {
-            "ISTJ": {"animal": "하마", "explain": "하마 설명", "img": "hippo.jpg"},
-            "ISFJ": {"animal": "부엉이", "explain": "부엉이 설명", "img": "hippo.jpg"},
-            "INFJ": {"animal": "물소", "explain": "물소 설명", "img": "hippo.jpg"},
-            "INTJ": {"animal": "치타", "explain": "치타 설명", "img": "hippo.jpg"},
-            "ISTP": {"animal": "치타", "explain": "치타 설명", "img": "hippo.jpg"},
-            "ISFP": {"animal": "나무늘보", "explain": "나무늘보 설명", "img": "hippo.jpg"},
-            "INFP": {"animal": "거북이", "explain": "거북이 설명", "img": "hippo.jpg"},
-            "INTP": {"animal": "코끼리", "explain": "코끼리 설명", "img": "hippo.jpg"},
-            "ESTP": {"animal": "악어", "explain": "악어 설명", "img": "lion.jpg"},
-            "ESFP": {"animal": "미어캣", "explain": "미어캣 설명", "img": "lion.jpg"},  
-            "ENFP": {"animal": "멋쟁이 사자", "explain": "멋쟁이 사자 설명", "img": "lion.jpg"},
-            "ENTP": {"animal": "태양새", "explain": "태양새 설명", "img": "lion.jpg"},
-            "ESTJ": {"animal": "기린", "explain": "기린 설명", "img": "lion.jpg"},
-            "ESFJ": {"animal": "고릴라", "explain": "고릴라 설명", "img": "lion.jpg"},
-            "ENFJ": {"animal": "카피바라", "explain": "카피바라 설명", "img": "lion.jpg"},
-            "ENTJ": {"animal": "호랑이", "explain": "호랑이 설명", "img": "tiger.jpg"},
+            "ISTJ": {"animal": "하마", "explain": "하마 설명", "img": "images/hippo.jpg"},
+            "ISFJ": {"animal": "부엉이", "explain": "부엉이 설명", "img": "images/hippo.jpg"},
+            "INFJ": {"animal": "물소", "explain": "물소 설명", "img": "images/hippo.jpg"},
+            "INTJ": {"animal": "치타", "explain": "치타 설명", "img": "images/hippo.jpg"},
+            "ISTP": {"animal": "치타", "explain": "치타 설명", "img": "images/hippo.jpg"},
+            "ISFP": {"animal": "나무늘보", "explain": "나무늘보 설명", "img": "images/hippo.jpg"},
+            "INFP": {"animal": "거북이", "explain": "거북이 설명", "img": "images/hippo.jpg"},
+            "INTP": {"animal": "코끼리", "explain": "코끼리 설명", "img": "images/hippo.jpg"},
+            "ESTP": {"animal": "악어", "explain": "악어 설명", "img": "images/lion.jpg"},
+            "ESFP": {"animal": "미어캣", "explain": "미어캣 설명", "img": "images/lion.jpg"},  
+            "ENFP": {"animal": "멋쟁이 사자", "explain": "멋쟁이 사자 설명", "img": "images/lion.jpg"},
+            "ENTP": {"animal": "태양새", "explain": "태양새 설명", "img": "images/lion.jpg"},
+            "ESTJ": {"animal": "기린", "explain": "기린 설명", "img": "images/lion.jpg"},
+            "ESFJ": {"animal": "고릴라", "explain": "고릴라 설명", "img": "images/lion.jpg"},
+            "ENFJ": {"animal": "카피바라", "explain": "카피바라 설명", "img": "images/lion.jpg"},
+            "ENTJ": {"animal": "호랑이", "explain": "호랑이 설명", "img": "images/tiger.jpg"},
         };
         function start() {
             $(".start").hide();
@@ -106,5 +110,6 @@
             }
         }
     </script>
+    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-61d03c6b6976741c"></script>
 </body>
 </html>
